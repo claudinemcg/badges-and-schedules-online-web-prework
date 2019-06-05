@@ -31,3 +31,12 @@ def printer(arr)
     puts id 
   end
 end 
+
+ef printer(arr)
+  batch_badge_maker(arr).each do |message|
+    puts message
+  end
+  assign_rooms(arr).each do|room|
+  puts room
+  end
+end
