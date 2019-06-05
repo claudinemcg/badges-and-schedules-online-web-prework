@@ -22,7 +22,7 @@ new_arr = []
 end
 
 
-def printer(arr)
+def printer(arr)                                # print names and rooms
   batch_badge_creator(arr).each do |message|
     puts message
   end
