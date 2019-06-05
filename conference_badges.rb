@@ -22,6 +22,9 @@ new_arr = []
 end
 
 def printer(arr)
-  puts batch_badge_maker(arr)
+  arr.each do |element|
+    
+    
+    puts batch_badge_maker(arr)
   puts assign_rooms(arr)
 end
