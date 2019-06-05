@@ -13,7 +13,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(arr)
+  new arr = []
   arr.each do |name|
-    puts "Hello, my name is #{name}."
+    message = "Hello, my name is #{name}."
+    new_arr << message
   end
+  return new_arr
 end
