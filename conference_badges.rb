@@ -31,6 +31,5 @@ new_arr = []
 end
 
 def printer(arr)
-  puts 
-  puts assign_rooms(arr)
+  puts badge_maker
 end
