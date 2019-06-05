@@ -21,6 +21,7 @@ def batch_badge_creator(arr)
   return new_arr
 end
 
-def assign_rooms
+def assign_rooms(name, index)
   
+  "Hello, #{name}! You'll be assigned to room #{index}!"
 end
