@@ -21,11 +21,13 @@ new_arr = []
   return new_arr
 end
 
+
 def printer(arr)
-  batch_badge_maker(arr).each do |message|
-    puts message
+  batch_badge_creator(arr).each do |id|
+    puts id
+  end 
+  
+  assign_rooms(arr).each do |id|
+    puts id 
   end
-  assign_rooms(arr).each do|room|
-  puts room
-  end
-end
+end 
