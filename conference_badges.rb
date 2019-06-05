@@ -21,6 +21,6 @@ new_arr = []
   return new_arr
 end
 
-def printer(attendees)
+def printer
   puts badge_maker(attendees)
 end
