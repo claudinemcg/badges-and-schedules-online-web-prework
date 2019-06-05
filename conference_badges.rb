@@ -30,6 +30,6 @@ new_arr = []
   return new_arr
 end
 
-def printer
+def printer(arr)
   puts assign_rooms(arr)
 end
