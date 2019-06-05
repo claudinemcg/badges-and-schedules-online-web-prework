@@ -23,16 +23,6 @@ end
 
 
 def printer(arr)
-  batch_badge_creator(arr).each do |id|
-    puts id
-  end 
-  
-  assign_rooms(arr).each do |id|
-    puts id 
-  end
-end 
-
-def printer(arr)
   batch_badge_creator(arr).each do |message|
     puts message
   end
