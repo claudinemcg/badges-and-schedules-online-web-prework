@@ -16,3 +16,4 @@ def batch_badge_creator(arr)
   arr.each do |element|
     return "Hello, my name is #{name}."
   end
+end
