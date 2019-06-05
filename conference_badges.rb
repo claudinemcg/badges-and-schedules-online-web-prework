@@ -22,7 +22,7 @@ def batch_badge_creator(arr)
 end
 
 def assign_rooms(arr)
-  arr.each_with_index do |element|
+  arr.each_with_index do |name, index|
     name = arr[i]
     index = [i]
     return "Hello, #{name}! You'll be assigned to room #{index}!"
