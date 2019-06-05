@@ -6,4 +6,4 @@ def badge_maker(array)
   end
 end
 
-puts badge_maker(Ada)
+puts badge_maker(arr)
