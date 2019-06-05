@@ -30,6 +30,6 @@ new_arr = []
   return new_arr
 end
 
-def printer(arr)
-  puts badge_maker
+def printer(attendees)
+  puts badge_maker(attendees)
 end
