@@ -21,7 +21,7 @@ new_arr = []
   return new_arr
 end
 
-def printer(name, arr)
+def printer(arr)
   puts batch_badge_maker(arr)
   puts assign_rooms(arr)
 end
