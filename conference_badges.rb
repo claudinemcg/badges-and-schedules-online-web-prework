@@ -2,9 +2,7 @@
 arr = ['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']
 
 def badge_maker(array)
-  array.each do |element|
-    return "Hello, my name is #{name}."
-  end
+  
 end
 
 puts badge_maker(arr)
@@ -15,3 +13,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(arr)
+  arr.each do |element|
+    return "Hello, my name is #{name}."
+  end
